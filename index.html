@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang=“en”>
+    <head>
+        <meta charset=“utf-8”>
+        <title>Demo Page</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+            <form>
+                <p>Enter your full name:*</p>
+                <input name="name" type="text" placeholder="Name" required>
+                <p>Enter your email address:*</p>
+                <input name="email" type="text" placeholder="Email" required>
+                <p>Enter your phone number:*</p>
+                <input name="phone" type="text" placeholder="Phone number" required>
+                <p>Do you have a suitable outdoor space:*</p>
+                <label>I have an outdoor space</label><input name="outside-space" type="radio" value="yes" required>
+                <label>I don't have an outdoor space</label><input name="outside-space" type="radio" value="no">
+                <p>Do you have children living in / regularly visiting the home:*</p>
+                <label>I do</label><input name="children" type="radio" value="yes" required>
+                <label>Select the average age range of these children </label><select name="ages" required>
+                    <option value="young">0-5</option>
+                    <option value="middle" selected>6-11</option>
+                    <option value="older">12-17</option>
+                </select>
+                <label>I do not<input name="children" type="radio" value="no">
+                <p>Do you have any other pets in the home:*</p>
+                <label>I do</label><input name="other-pets" type="radio" value="yes" required>
+                <label>Please enter the species:*</label><input name="species" type="text" placeholder="Species">
+                <label>I do not</label><input name="other-pets" type="radio" value="no">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </body>
+    </head>
+    <main>
+
+    </main>
+</html>
